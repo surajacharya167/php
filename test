@@ -1,0 +1,125 @@
+<?php
+//echo "hello";
+
+/*
+
+*/
+
+// $sem = 7;
+// $name = 'suman';
+// $gpa = 3.77;
+// $pass = true;
+// if($pass){
+//     echo "hello mrs {$name}<br>";
+//     echo "you are passed in {$sem}th sem. <br>";
+//     echo "YOur gpa is {$gpa}";
+    
+// }
+// else
+// {
+//     echo "hello mrs {$name}<br>";
+//     echo "you are failed in {$sem}th sem. <br>";
+//     echo "YOur gpa is {$gpa}";
+// }
+
+// $marks = -7;
+// if($marks>100){
+
+//     echo "marks can not be greater than 100";
+// }
+// elseif($marks<0){
+
+//     echo "marks can not be smaller than 0";
+// }
+// elseif($marks >= 40){
+//     echo "you are passed";
+// } else
+// {
+//     echo "you are failed";
+// }
+// $hours = 42;
+// if($hours < 0){
+//     echo "invalid input";
+// } elseif($hours == 0){
+//     echo "you earning is zero";
+// } elseif($hours <= 40){
+//     $earn = 40*100;
+//     echo $earn;
+
+// } else{
+//     $earn = 40*100+($hours-40)*150;
+//     echo $earn;
+// }
+// $nepali = false;
+// $child = false;
+
+// if($nepali == true && $child == true){
+//     $ticket = 50;
+//     echo "ticket is {$ticket}";
+
+// } elseif($nepali == true && $child == false){
+//     $ticket = 100;
+//     echo "ticket is rs {$ticket}";
+
+// }
+// elseif  ($nepali == false && $child == true){
+//     $ticket = 200;
+//     echo $ticket;
+// } else{
+//     $ticket = 400;
+//     echo " {$ticket}";
+// }
+
+
+// $marks = 85;
+
+// if($marks < 0){
+//     echo"invalid";
+// }
+// elseif($marks < 20){
+
+//     echo"you are failed and you have no garde";
+
+
+// }  elseif($marks <40){
+
+//    echo "you have got d garde";
+// } 
+
+//   elseif($marks <50){
+
+//     echo"you have got c garde";
+//   } elseif($marks <60){
+
+//     echo"you have got c+ garde";
+//   }  elseif($marks < 70){
+
+//     echo "you have got b garde";
+//   }  elseif($marks < 80){
+
+//     echo"you have got b+ garde";
+
+//   } elseif($marks < 90){
+
+//     echo "You got an A grade and outstanding marks ";
+
+//   }  else{
+
+
+//    echo "you have got a+ garde and outstanding marks";
+//   }
+
+
+$child  = false;
+$senior = false;
+if($child == true || $senior == true){
+
+    echo "you have reseeved seat";
+
+} else{
+
+  echo "yes available seat";
+
+}
+
+?>
